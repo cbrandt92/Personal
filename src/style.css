@@ -1,13 +1,5 @@
 body {
-  background: linear-gradient(
-    99.6deg,
-    rgb(112, 128, 152) 10.6%,
-    rgb(242, 227, 234) 32.9%,
-    rgb(234, 202, 213) 52.7%,
-    rgb(220, 227, 239) 72.8%,
-    rgb(185, 205, 227) 81.1%,
-    rgb(154, 180, 212) 102.4%
-  );
+  background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 }
 
 h1,
@@ -24,7 +16,7 @@ h2 {
 
 img {
   display: block;
-  margin: 0 auto;
+  margin: 10px auto;
   border-radius: 3px;
   max-width: 60%;
 }
@@ -32,24 +24,6 @@ img {
 h3 {
   text-align: center;
   color: #476269;
-}
-
-button {
-  display: block;
-  margin: 20px auto;
-  color: #476269;
-  background-color: #f1f1f1;
-  border-radius: 30px;
-  padding: 15px;
-  border: 1px solid #476269;
-  box-shadow: 2px 5px 5px;
-  transition: all 150ms ease-in-out;
-}
-
-button:hover {
-  color: #f5e1da;
-  background-color: #137083;
-  cursor: pointer;
 }
 
 div {
@@ -65,16 +39,7 @@ p {
   color: #476269;
   line-height: 1.5p;
 }
-.content {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 15px 40px;
-}
 
-.listen {
-  text-decoration: none;
-  color: #137083;
-}
-.listen:hover {
-  text-decoration: underline;
+.video {
+  font-size: 50px;
 }
