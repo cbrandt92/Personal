@@ -44,3 +44,7 @@ p {
 .video {
   font-size: 50px;
 }
+
+.baroque, .classical, .romantic {
+  text-align: start;
+}
