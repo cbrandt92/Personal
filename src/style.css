@@ -2,6 +2,15 @@ body {
   background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 }
 
+nav ul{
+list-style: none;  
+padding: 0;
+margin: 0;
+}
+
+nav li {
+  display: inline;
+}
 h1,
 h2 {
   line-height: 30px;
