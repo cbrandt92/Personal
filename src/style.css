@@ -2,17 +2,44 @@ body {
   background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 }
 
-nav ul{
-list-style: none;  
-padding: 0;
-margin: 0;
+nav {
+  width: 1140px;
+  padding: 0px 0px;
+  font-size: 16px;
+  position: absolute;
+  top: 0;
+}
+
+.headshot {
+  height: 8px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+  
 }
 
 nav li {
   display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
 }
+
+nav a {
+  text-decoration: none;
+  color: #137083;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: #476269;
+}
+
 h1,
-h2 {
+h2,
+.packages {
   line-height: 30px;
 
   color: #137083;
