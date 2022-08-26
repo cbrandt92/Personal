@@ -84,3 +84,7 @@ p {
 .baroque, .classical, .romantic {
   text-align: start;
 }
+
+.addons {
+  list-style: none;
+}
