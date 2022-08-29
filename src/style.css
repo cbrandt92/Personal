@@ -92,8 +92,7 @@ p {
 
 @media (max-width: 900px) {
   nav {
-    width: 80%;
-    font-size: 20px;
+    display: none;
   }
 
   h1 {
