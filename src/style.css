@@ -90,4 +90,13 @@ p {
   list-style: none;
 }
 
+@media (max-width: 900px) {
+  nav {
+    width: 80%;
+    font-size: 20px;
+  }
 
+  h1 {
+    font-size: 30px;
+  }
+}
