@@ -90,8 +90,8 @@ p {
   list-style: none;
 }
 
-@media (max-width: 900px) {
-  nav {
+@media (max-width: 600px) {
+  .nav {
     display: none;
   }
 
