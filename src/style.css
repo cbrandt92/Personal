@@ -2,32 +2,25 @@ body {
   background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 }
 
-nav {
-  width: 1140px;
-  padding: 0px 0px 20px 0px;
-  font-size: 16px;
-  position: absolute;
-  top: 0;
-}
 
 .company {
   margin-left: 0;
 }
 
-nav ul {
+.navbar ul {
   padding: 0;
   margin: 0;
   
 }
 
-nav li {
+.navbar li {
   display: inline;
   list-style: none;
   line-height: 42px;
   margin-left: 15px;
 }
 
-nav a {
+.navbar a {
   text-decoration: none;
   color: #137083;
   transition: all 100ms ease-in-out;
@@ -90,9 +83,9 @@ p {
   list-style: none;
 }
 
-@media (max-width: 600px) {
-  .nav {
-    display: none;
+@media (max-width: 640px) {
+  .container {
+    text-align: center;
   }
 
   h1 {
