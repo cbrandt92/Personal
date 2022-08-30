@@ -86,6 +86,7 @@ p {
 @media (max-width: 640px) {
   .container {
     text-align: center;
+    margin: 5px;
   }
 
   h1 {
