@@ -26,8 +26,8 @@ body {
   transition: all 100ms ease-in-out;
 }
 
-nav a:hover,
-nav li.active a {
+.navbar a:hover,
+.navbar li.active a {
   color: #476269;
 }
 
