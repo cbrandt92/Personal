@@ -94,3 +94,18 @@ p {
     font-size: 30px;
   }
 }
+
+.social-links a {
+  margin: 30px;
+  color: #137083;
+  background:#e2d1c3;
+  padding: 10px 14px;
+  font-size: 25px;
+  border-radius: 80%;
+  transition: all 100ms ease-in-out;
+}
+
+.social-links a:hover {
+  color: #e2d1c3;
+  background-color: #137083;
+}
